@@ -16,4 +16,13 @@ namespace tools {
     export function ledOfRectangle(length: number, width:number): void {
         basic.showNumber(length*width)
     }
+
+    /**
+    * JSON讀取資料
+    */
+    //% blockId="JsonTextTrans" block="Input JSON Text %myJSON"
+    //% blockGap=2 weight=1
+    export function JsonTextTrans(myJSON: string): void {
+        basic.showString(myJSON)
+    }
 }

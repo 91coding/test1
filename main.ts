@@ -17,12 +17,16 @@ namespace tools {
         basic.showNumber(length*width)
     }
 
-    /**
-    * JSON讀取資料
+   /**
+    * 計算長方形面積，並回傳
     */
-    //% blockId="JsonTextTrans" block="Input JSON Text %myJSON"
-    //% blockGap=2 weight=1
-    export function JsonTextTrans(myJSON: string): void {
-        basic.showString(myJSON)
+    //% blockId="getJSON" block="get JSON String Source %source|keyWord %keyWord"
+    //% blockGap=2 weight=0 blockExternalInputs=true
+    export function getJSON(source: string, retWord:string): string {
+
+	keyWordData="Join Coding"
+
+        return keyWordData
     }
+
 }

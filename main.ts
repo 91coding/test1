@@ -22,7 +22,7 @@ namespace tools {
     */
     //% blockId="getJSON" block="get JSON String Source %source|keyWord %keyWord"
     //% blockGap=2 weight=0 blockExternalInputs=true
-    export function getJSON(source: string, retWord:string): string {
+    export function getJSON(source: string, keyWord:string): string {
 
 	keyWordData="Join Coding"
 

@@ -20,7 +20,7 @@ namespace tools {
    /**
     * 計算長方形面積，並回傳
     */
-    //% blockId="getJSON" block="get JSON String Source %source|keyWord %keyWord"
+    //% blockId="getJSON" block="get JSON String source %source|keyWord %keyWord"
     //% blockGap=2 weight=0 blockExternalInputs=true
     export function getJSON(source: string, keyWord:string): string {
 
